@@ -1,0 +1,18 @@
+<body>
+
+    <!-- To load jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services https://firebase.google.com/docs/web/setup#add-sdks-initialize -->
+    <script defer src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.2.1/firebase-database.js"></script>
+
+    <!-- Include scrapir.js -->
+    <script src="scrapir.js"></script>
+
+    <script>
+        // Call the function
+        scrAPIr("https://www.googleapis.com/books/v1/volumes", 99, 'rawJSON'); 
+    </script>
+
+</body>
